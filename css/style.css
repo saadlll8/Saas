@@ -1,0 +1,104 @@
+.center {
+    margin: auto;
+    width: 25%;
+    border: 3px;
+    padding: 10px;
+}  
+
+#pic{
+  width:130px;
+  height: 130px;
+ 
+  position: relative;
+    left: 77px;
+  top:-350px;
+}
+#p1 {
+  
+  height:380px;
+  width: 280px;
+ border: solid 3px;
+  background-color:wihte;
+  text-align:white;
+  top:.1%;
+  left: 4.2%;
+}
+.id{
+ position: relative;
+    left: 20px;
+  top:-320px;`
+
+}
+.modal {
+   position: relative;
+    background-color: #fefefe;
+    padding: 5px;
+    border: 2px solid #888;
+    width: 70%;
+       top:-700px;
+      left:320px
+}
+.close {
+    color: black;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.mystyle {
+    width: 100%;
+    padding: 25px;
+    background-color: coral;
+    color: white;
+    font-size: 25px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.signed {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  top: 20px;
+  left: 80px;
+  color: green;
+   
+}
+
+
+.signed .text {
+    visibility: hidden;
+   width: 50%;
+    padding: 10px;
+    background-color: coral;
+    color: white;
+    font-size: 15px;
+    box-sizing: border-box;
+    
+}
+
+.signed .show {
+    visibility: visible;
+    animation: fadeIn 1s;
+
+}
